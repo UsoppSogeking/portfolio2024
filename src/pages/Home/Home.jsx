@@ -148,7 +148,7 @@ const Home = () => {
                                 <a target="_blank" href="https://wa.me/5511980942220" className="text-react-color dark:text-dark-primary">
                                     <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                                 </a>
-                                <a href="./Curriculoestagio.pdf" download className="text-react-color dark:text-dark-primary">
+                                <a href="./public/curriculoestagio.pdf" download className="text-react-color dark:text-dark-primary">
                                     <FontAwesomeIcon icon={faDownload} size="2x" />
                                 </a>
                             </div>
