@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 const Home = () => {
     return (
         <div className="bg-light-background flex flex-col items-center">
-            <header className='header w-full min-h-screen bg-[url(./CircuitBoard.svg)] bg-center bg-no-repeat bg-cover dark:bg-[url(./DarkCircuitBoard.svg)] flex justify-center items-center'>
+            <header className="header w-full min-h-screen bg-[url('./CircuitBoard.svg')] bg-center bg-no-repeat bg-cover dark:bg-[url('./DarkCircuitBoard.svg')] flex justify-center items-center">
                 <motion.div
                     className="max-w-7xl text-light-text-60 content-container text-center space-y-6 dark:text-dark-text-60"
                     initial={{ opacity: 0, y: -100 }}
@@ -65,7 +65,7 @@ const Home = () => {
                             <div className="project-card bg-light-panel dark:bg-dark-panel p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 flex flex-col">
                                 <div className="flex flex-col justify-between h-full">
                                     <div>
-                                        <img src="./feed360img.png" alt="Projeto 1" className="w-full h-48 object-cover mb-4 rounded-lg" />
+                                        <img src="../feed360img.png" alt="Projeto 1" className="w-full h-48 object-cover mb-4 rounded-lg" />
                                         <h3 className="text-xl font-bold mb-2 text-light-text-87 dark:text-dark-text-87">Feed360</h3>
                                         <p className="text-light-text-60 dark:text-dark-text-60 mb-4">Feed360 é um aplicativo/site desenvolvido para facilitar o processo de solicitação e recebimento de feedbacks. Usuários podem solicitar feedback de outros usuários, configurando perguntas específicas e critérios de avaliação. Esse projeto foi criado com o intuito de valorizar a importância do feedback no desenvolvimento profissional, especialmente para iniciantes que buscam melhorar suas habilidades e desempenho.</p>
                                     </div>
@@ -83,7 +83,7 @@ const Home = () => {
                             <div className="project-card bg-light-panel dark:bg-dark-panel p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 flex flex-col">
                                 <div className="flex flex-col justify-between h-full">
                                     <div>
-                                        <img src="./blogtechimg.png" alt="Projeto 2" className="w-full h-48 object-cover mb-4 rounded-lg" />
+                                        <img src="../blogtechimg.png" alt="Projeto 2" className="w-full h-48 object-cover mb-4 rounded-lg" />
                                         <h3 className="text-xl font-bold mb-2 text-light-text-87 dark:text-dark-text-87">Blogtech</h3>
                                         <p className="text-light-text-60 dark:text-dark-text-60 mb-4">Blogtech é uma plataforma de blog onde os usuários podem criar contas, postar conteúdos, comentar em posts e dar likes. Além disso, é possível seguir outros usuários, visualizar perfis e gerenciar postagens favoritas.</p>
                                     </div>
