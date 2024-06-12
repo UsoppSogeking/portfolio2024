@@ -1,0 +1,45 @@
+Flexbox Classes:
+
+flex: Define um contêiner como um contêiner flexível.
+flex-row: Define o eixo principal como horizontal (linha).
+flex-col: Define o eixo principal como vertical (coluna).
+justify-center: Centraliza os itens horizontalmente ao longo do eixo principal.
+items-center: Centraliza os itens verticalmente ao longo do eixo transversal.
+flex-wrap: Permite que os itens flexíveis quebrem para uma nova linha, se necessário.
+gap-{size}: Define o espaçamento entre os itens em um contêiner flexível.
+Grid Classes:
+
+grid: Define um contêiner como um contêiner de grade.
+grid-cols-{number}: Define o número de colunas na grade.
+grid-rows-{number}: Define o número de linhas na grade.
+col-span-{number}: Define o número de colunas que um item ocupa.
+row-span-{number}: Define o número de linhas que um item ocupa.
+Posicionamento:
+
+absolute: Define um elemento como posicionado de forma absoluta em relação ao seu contêiner pai.
+relative: Define um elemento como posicionado de forma relativa em relação à sua posição original.
+fixed: Define um elemento como posicionado de forma fixa em relação à janela de visualização.
+top-{size}: Define a distância do elemento em relação ao topo.
+left-{size}: Define a distância do elemento em relação à esquerda.
+right-{size}: Define a distância do elemento em relação à direita.
+bottom-{size}: Define a distância do elemento em relação ao fundo.
+Tamanho:
+
+w-{size}: Define a largura do elemento.
+h-{size}: Define a altura do elemento.
+min-w-{size}: Define a largura mínima do elemento.
+min-h-{size}: Define a altura mínima do elemento.
+max-w-{size}: Define a largura máxima do elemento.
+max-h-{size}: Define a altura máxima do elemento.
+Margem e Preenchimento:
+
+m-{size}: Define a margem do elemento.
+mt-{size}: Define a margem superior do elemento.
+mr-{size}: Define a margem direita do elemento.
+mb-{size}: Define a margem inferior do elemento.
+ml-{size}: Define a margem esquerda do elemento.
+p-{size}: Define o preenchimento do elemento.
+pt-{size}: Define o preenchimento superior do elemento.
+pr-{size}: Define o preenchimento direito do elemento.
+pb-{size}: Define o preenchimento inferior do elemento.
+pl-{size}: Define o preenchimento esquerdo do elemento.

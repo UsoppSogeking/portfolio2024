@@ -1,0 +1,25 @@
+.content-container {
+    padding-left: 80px;
+}
+
+@media(max-width: 768px) {
+    .content-container {
+        padding-left: 0;
+        padding-bottom: 80px;
+    }
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header {
+    animation: fadeInFromTop 1s ease forwards;
+}

@@ -1,0 +1,16 @@
+/* No seu arquivo CSS */
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 0px; /* Largura da barra de rolagem */
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: transparent; /* Tornando o fundo transparente */
+}
+
+/* Cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background: transparent; /* Tornando a barra de rolagem transparente */
+    border-radius: 4px; /* Bordas arredondadas, se necessário */
+}
