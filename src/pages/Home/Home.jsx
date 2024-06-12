@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 const Home = () => {
     return (
         <div className="bg-light-background flex flex-col items-center">
-            <header className='header w-full min-h-screen bg-[url(./CircuitBoard.svg)] bg-center bg-no-repeat bg-cover dark:bg-[url(DarkCircuitBoard.svg)] flex justify-center items-center'>
+            <header className='header w-full min-h-screen bg-[url(./CircuitBoard.svg)] bg-center bg-no-repeat bg-cover dark:bg-[url(./DarkCircuitBoard.svg)] flex justify-center items-center'>
                 <motion.div
                     className="max-w-7xl text-light-text-60 content-container text-center space-y-6 dark:text-dark-text-60"
                     initial={{ opacity: 0, y: -100 }}
