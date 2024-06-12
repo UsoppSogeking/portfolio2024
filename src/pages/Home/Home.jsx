@@ -2,7 +2,6 @@ import ScrollToTopButton from '../../components/ScrollToTopButton';
 import ContactForm from '../../components/ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 
 import blogtechImage from '../../images/blogtech.png';
@@ -147,9 +146,6 @@ const Home = () => {
                                 </a>
                                 <a target="_blank" href="https://wa.me/5511980942220" className="text-react-color dark:text-dark-primary">
                                     <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-                                </a>
-                                <a href="./public/curriculoestagio.pdf" download className="text-react-color dark:text-dark-primary">
-                                    <FontAwesomeIcon icon={faDownload} size="2x" />
                                 </a>
                             </div>
                         </div>
